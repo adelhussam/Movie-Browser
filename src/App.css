@@ -1,0 +1,35 @@
+.hero-container{
+    position: relative;
+    z-index: 100;
+}
+
+.hero-text{
+    position: relative;
+    z-index: 200;
+}
+
+.hero-backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-size:cover;
+    background-position: center center;
+    opacity: 0.4;
+}
+
+.error-txt{
+    text-align: center;
+    font-size: x-large;
+}
+.txt-over-img{
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+    display: inline;
+    position: absolute;
+    top:100px;
+    left: 140px;
+}
